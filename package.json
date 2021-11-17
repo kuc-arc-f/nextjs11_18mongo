@@ -1,0 +1,35 @@
+{
+  "name": "nextjs11_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "serve": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.13",
+    "apollo-server-micro": "^3.5.0",
+    "bcrypt": "^5.0.0",
+    "csrf": "^3.1.0",
+    "graphql": "^15.7.2",
+    "micro": "^9.3.4",
+    "micro-cors": "^0.1.1",
+    "moment": "^2.29.1",
+    "mongodb": "^4.1.4",
+    "next": "11.1.2",
+    "next-cookies": "^2.0.3",
+    "next-flash": "^1.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@types/react": "^17.0.27",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "typescript": "^4.4.3"
+  }
+}
